@@ -1,0 +1,29 @@
+ion-button.back {
+    --background: #617E6D;
+}
+
+ion-back-button {
+    --color: "white";
+}
+
+ion-button.moveTitle {
+    --background: #58A38A;
+    --opacity: 100%;
+}
+
+ion-card.move {
+    width: 140px;
+    height: 200px;
+    --background:#58A38A;
+}
+
+
+ion-card-subtitle {
+    align-self: center;
+    color: white;
+}
+
+img {
+    padding-top: 20px;
+    padding-left:15%;
+}

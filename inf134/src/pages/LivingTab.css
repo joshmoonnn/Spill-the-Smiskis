@@ -1,0 +1,41 @@
+ion-button.back {
+    --background: #617E6D;
+}
+
+ion-back-button {
+    --color: "white";
+}
+
+ion-button.liveTitle {
+    --background: #F08D74;
+    --opacity: 100%;
+}
+
+ion-card.live {
+    width: 140px;
+    height: 200px;
+    --background:#F08D74;
+}
+
+ion-card-header {
+}
+
+ion-card-subtitle {
+    align-self: center;
+    color: white;
+}
+
+img {
+    padding-top: 20px;
+    padding-left:15%;
+}
+
+img.right {
+    padding-top: 20px;
+    padding-left:30%;
+}
+
+img.down {
+    padding-top: 60px;
+    padding-left:15%;
+}

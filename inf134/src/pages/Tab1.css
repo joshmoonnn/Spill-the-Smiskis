@@ -1,0 +1,47 @@
+
+ion-toolbar{
+    --background: #D7EACD; 
+    border: none;
+}
+
+ion-title{
+    --color: #617E6D;
+    padding: 20px 30px 20px 30px;
+}
+
+ion-search-bar{
+    color: light;
+}
+
+ion-segment {
+    --background: #D7EACD;
+}
+
+.segment-button-checked.ios::part(native) {
+    color: #000;
+  }
+
+ion-content {
+    --background: #F0F6EB;
+}
+
+ion-button {
+    --background-activated: false;
+}
+
+ion-button.moving {
+    --background: #58A38A;
+}
+
+ion-button.living {
+    --background: #F08D74;
+}
+
+ion-button.work {
+    --background: #00A142;
+}
+
+img.smiHouse {
+    padding-top: 0px;
+    padding-left:0%;
+}

@@ -1,0 +1,49 @@
+.seriesSelector {
+    --background: #D7EACD;
+    padding: 10px 20px;
+}
+
+ion-selector::part(text) {
+    --color: #617E6D;
+}
+
+ion-selector::part(label) {
+    --color: #617E6D;
+}
+
+ion-range {
+    padding: 0px 30px;
+}
+
+ion-range::part(bar-active) {
+    background: #617E6D;
+  }
+
+  ion-range::part(tick-active) {
+    background: #617E6D;
+    height: 14px;
+    width: 14px;
+    top: 14px;
+    border-radius: 50%;
+  }
+
+  ion-range::part(tick) {
+    height: 14px;
+    width: 14px;
+    top: 14px;
+    border-radius: 50%;
+  }
+
+  ion-range::part(knob) {
+    background: #617E6D;
+  }
+
+  ion-range::part(label) {
+    color: #617E6D;
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  ion-item {
+    --background: #F0F6EB;
+  }
