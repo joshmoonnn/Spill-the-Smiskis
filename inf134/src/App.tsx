@@ -81,7 +81,7 @@ const App: React.FC = () => (
         </IonRouterOutlet>
 
         <IonNav root={() => <Tab1 />}></IonNav>
-        
+
 
         <IonTabBar slot="bottom">
 
@@ -96,11 +96,11 @@ const App: React.FC = () => (
         </IonTabBar>
       </IonTabs>
 
-      <IonFab vertical="bottom" horizontal="center" className="inner-center-btn">
-            <IonFabButton href="/tab2">
-             <IonIcon className="smi" src="/assets/smi.svg"></IonIcon>
-            </IonFabButton>
-          </IonFab>
+      <IonFab vertical="bottom" horizontal="center" className="inner-center-fab">
+        <IonFabButton color="transparent" className="inner-center-btn" href="/tab2">
+          <img className="smi" src="/assets/smi.svg"></img>
+        </IonFabButton>
+      </IonFab>
 
     </IonReactRouter>
   </IonApp>

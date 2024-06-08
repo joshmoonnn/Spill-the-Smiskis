@@ -54,6 +54,30 @@ const Tab1: React.FC = () => {
             <IonCol></IonCol>
           </IonRow>
 
+          <IonRow>
+            <IonCol></IonCol>
+            <IonCol><div style={{ width: '222px' }}><IonButton className="dress" shape="round" expand="full">Dressing Series</IonButton></div></IonCol>
+            <IonCol><img src="/assets/sweater.svg"></img></IonCol>
+          </IonRow>
+
+          <IonRow>
+            <IonCol><img src="/assets/pom.svg"></img></IonCol>
+            <IonCol><div style={{ width: '222px' }}><IonButton className="cheer" shape="round" expand="full">Cheer Series</IonButton></div></IonCol>
+            <IonCol></IonCol>
+          </IonRow>
+
+          <IonRow>
+            <IonCol></IonCol>
+            <IonCol><div style={{ width: '222px' }}><IonButton className="exercise" shape="round" expand="full">Exercising Series</IonButton></div></IonCol>
+            <IonCol><img src="/assets/hula.svg"></img></IonCol>
+          </IonRow>
+
+          <IonRow>
+            <IonCol><img src="/assets/meditate.svg"></img></IonCol>
+            <IonCol><div style={{ width: '222px' }}><IonButton className="yoga" shape="round" expand="full">Yoga Series</IonButton></div></IonCol>
+            <IonCol></IonCol>
+          </IonRow>
+
         </IonGrid>
         ) : (
           <img className="smiHouse" src="/assets/house.png"></img>

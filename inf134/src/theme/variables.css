@@ -1,2 +1,23 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+.inner-left-btn {
+    --background: #D7EACD;
+}
+
+.inner-right-btn {
+    --background: #D7EACD;
+}
+
+.inner-center-btn {
+    --background: transparent;
+    --color: transparent;
+    --close-icon-font-size: .5em;
+}
+
+.inner-center-fab{
+    --background: transparent;
+}
+
+.smi {
+    padding: 0px;
+}

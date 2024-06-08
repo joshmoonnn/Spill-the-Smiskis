@@ -41,6 +41,22 @@ ion-button.work {
     --background: #00A142;
 }
 
+ion-button.dress {
+    --background: #F5A100;
+}
+
+ion-button.cheer {
+    --background: #36AFD9;
+}
+
+ion-button.exercise {
+    --background: #E26076;
+}
+
+ion-button.yoga {
+    --background: #E56C2C;
+}
+
 img.smiHouse {
     padding-top: 0px;
     padding-left:0%;

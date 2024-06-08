@@ -17,9 +17,6 @@ ion-card.live {
     --background:#F08D74;
 }
 
-ion-card-header {
-}
-
 ion-card-subtitle {
     align-self: center;
     color: white;
