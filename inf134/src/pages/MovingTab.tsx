@@ -1,4 +1,4 @@
-import { IonBackButton, IonButton, IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCol, IonContent, IonGrid, IonHeader, IonLabel, IonPage, IonRow, IonSearchbar, IonSegment, IonSegmentButton, IonTitle, IonToolbar } from '@ionic/react';
+import { IonBackButton, IonButton, IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCol, IonContent, IonGrid, IonHeader, IonLabel, IonPage, IonRouterLink, IonRow, IonSearchbar, IonSegment, IonSegmentButton, IonTitle, IonToolbar } from '@ionic/react';
 import './MovingTab.css';
 
 const MovingTab: React.FC = () => {
@@ -31,7 +31,7 @@ const MovingTab: React.FC = () => {
                     </IonRow>
 
                     <IonRow>
-                        <IonCol><div className="centerCard"><IonCard className="move"><img src="/assets/ladder.svg"></img><IonCardHeader><IonCardSubtitle>Carrying Ladder</IonCardSubtitle></IonCardHeader></IonCard></div></IonCol>
+                        <IonCol><div className="centerCard"><IonRouterLink href="/laddersmiskitab"><IonCard className="move"><img src="/assets/ladder.svg"></img><IonCardHeader><IonCardSubtitle>Carrying Ladder</IonCardSubtitle></IonCardHeader></IonCard></IonRouterLink></div></IonCol>
                         <IonCol><div className="centerCard"><IonCard className="move"><img className="right" src="/assets/boxes.svg"></img><IonCardHeader><IonCardSubtitle>Balancing Boxes</IonCardSubtitle></IonCardHeader></IonCard></div></IonCol>
                     </IonRow>
                     <IonRow>

@@ -1,6 +1,8 @@
 .seriesSelector {
     --background: #D7EACD;
-    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 6px;
+    border: 3px solid #617E6D;
 }
 
 ion-selector::part(text) {
@@ -63,4 +65,18 @@ ion-range::part(bar-active) {
   ion-checkbox::part(container) {
     border-radius: 6px;
     border: 2px solid #617E6D;
+  }
+
+  .reset {
+    --background: #ECB7B7;
+    --color: #AB4848;
+    font-weight: bold;
+    font-size: small;
+  }
+
+  .submit {
+    --background: #617E6D;
+    --color: #D7EACD;
+    font-weight: bold;
+    font-size: small;
   }
